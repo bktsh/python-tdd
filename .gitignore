@@ -1,3 +1,4 @@
 venv/
 my_env/
 .pytest_cache/
+.idea/
