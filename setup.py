@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
-requirements = ["ipython>=6", "nbformat>=4", "nbconvert>=5", "requests>=2", "pytesseract>=0.2.6", "tesseract>=0.1.3", "opencv-python>=4.1.0.25"]
+requirements = ["ipython>=6", "nbformat>=4", "nbconvert>=5", "requests>=2", "pytesseract>=0.2.6", "tesseract>=0.1.3", "opencv-python>=4.1.0.25", "fpdf>=1.7.2"]
 
 setup(
     install_requires=requirements,
